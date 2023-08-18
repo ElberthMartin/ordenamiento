@@ -11,7 +11,6 @@ import javax.swing.JOptionPane;
  */
 public class Ordenamiento {
 //Declaramos la clase principal
-    public class OrdenamientoNumeros {
     public static void main(String[] args) {
 //ahora declaramos y creamos el array de numeros
         int[] numeros = new int[5];
@@ -41,4 +40,3 @@ for (int i = 0; i < numeros.length; i++) {
         JOptionPane.showMessageDialog(null, mensaje.toString(), "Números Ordenados", JOptionPane.INFORMATION_MESSAGE);
     }
     }
-}
