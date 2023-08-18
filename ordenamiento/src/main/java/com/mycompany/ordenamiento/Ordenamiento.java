@@ -16,3 +16,8 @@ public class Ordenamiento {
 //ahora declaramos y creamos el array de numeros
         int[] numeros = new int[5];
 
+// ingreso de numero de        
+for (int i = 0; i < numeros.length; i++) {
+            String input = JOptionPane.showInputDialog("Ingrese el número #" + (i + 1));
+            numeros[i] = Integer.parseInt(input);
+        }
