@@ -10,8 +10,7 @@ import javax.swing.JOptionPane;
  * @author Alumno
  */
 public class Ordenamiento {
-
+//Declaramos la clase principal
+    public class OrdenamientoNumeros {
     public static void main(String[] args) {
-        System.out.println("ordenamiento");
-    }
-}
+
