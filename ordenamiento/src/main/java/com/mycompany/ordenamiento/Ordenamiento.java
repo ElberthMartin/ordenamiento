@@ -32,3 +32,13 @@ for (int i = 0; i < numeros.length; i++) {
                 }
             }
         }
+//ahora mostramos los numero ordenados 
+        StringBuilder mensaje = new StringBuilder("Números ordenados de menor a mayor:\n");
+        for (int numero : numeros) {
+            mensaje.append(numero).append("\n");
+        }
+
+        JOptionPane.showMessageDialog(null, mensaje.toString(), "Números Ordenados", JOptionPane.INFORMATION_MESSAGE);
+    }
+    }
+}
